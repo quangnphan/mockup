@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&family=Roboto:wght@100;400;500;700&display=swap");
+/* Reset some default styles for better consistency */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Apply styles to the player header */
+.player-header {
+  padding: 15px 50px;
+  display: flex;
+  align-items: flex-end;
+  height: 35vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.91%, #000000 81.78%),
+    url("https://cdn.abcotvs.com/dip/images/13584500_080123-ktrk-ap-framber-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  position: relative;
+}
+
+.logo img {
+  max-width: 100px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+/* Style the player's photo */
+.player-photo img {
+  width: 150px; /* Adjust the photo size as needed */
+  border: 5px solid white; /* Create a circular photo */
+  margin-right: 20px; /* Spacing between photo and info */
+}
+
+/* Style the player's information */
+.player-info {
+  flex: 1; /* Allow player info to take remaining space */
+}
+
+/* Style the player's name */
+.player-info h1 {
+    color: #ffffff;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0; /* Remove margin */
+    text-shadow: 1px 1px 11px #000000;
+    opacity: 0.9;
+  }
+
+  .player-info h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0; /* Remove margin */
+    text-shadow: 1px 1px 11px #000000;
+    margin-bottom: -7px;
+    opacity: 0.9;
+  }
+
+/* Style other player details */
+.player-info p {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 1.23rem;
+    margin: 0; /* Remove margin */
+    text-shadow: 1px 1px 11px #000000;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.follow button{
+    border: none;
+    outline: none;
+    background: #ffffff;
+    color: black;
+    border-radius: 16px;
+    height: 32px;
+    box-shadow: 1px 1px 11px #000000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 12px;
+    margin: 10px 0 7px 0;
+}
